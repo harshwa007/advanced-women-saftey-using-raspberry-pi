@@ -15,8 +15,8 @@ camera.capture('/home/pi/project/testing/image.jpg')     # image path set
 sleep(1)  
 camera.stop_preview()  
 def send_an_email():  
-    toaddr = 'harshwa007@gmail.com'      # To id 
-    me = 'wadavaneharshvardhan@gmail.com'          # your id
+    toaddr = ''      # To id 
+    me = ''          # your id
     subject = "Help me please"              # Subject
   
     msg = MIMEMultipart()  
@@ -37,7 +37,7 @@ def send_an_email():
        s.ehlo()  
        s.starttls()  
        s.ehlo()  
-       s.login(user = 'wadavaneharshvardhan@gmail.com', password = 'qgtwgtzurozynxbf')  # User id & password
+       s.login(user = '', password = '')  # User id & password
        #s.send_message(msg)  
        s.sendmail(me, toaddr, msg.as_string())  
        s.quit()  
