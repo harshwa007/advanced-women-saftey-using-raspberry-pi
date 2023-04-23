@@ -1,4 +1,4 @@
-# advanced-women-saftey-using-raspberry-pi
+# advanced-women-safety-using-raspberry-pi
 Introduction:
 
 Women’s safety has become an increasingly important issue in modern society. With the rise in the number of crimes against women, there is a need for advanced technological solutions that can help ensure their safety. The Raspberry Pi is a popular single-board computer that has been used to develop a variety of projects. In this project, we will discuss the development of an advanced women’s safety system using Raspberry Pi, GPS sensor, pulse sensor, and Pi camera.
